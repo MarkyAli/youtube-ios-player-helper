@@ -15,7 +15,7 @@ let package = Package(
         .package(url: "https://github.com/MarkyAli/ocmock.git", .upToNextMajor(from: "0.0.0"))
     ],
     targets: [
-        .target(name: "Moya", dependencies: ["Alamofire"]),
+        .target(name: "youtube-ios-player-helper", dependencies: ["OCMock"]),
     ]
 )
 
