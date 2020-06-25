@@ -12,7 +12,7 @@ let package = Package(
         .library(name: "youtube-ios-player-helper", targets: ["youtube-ios-player-helper"])
     ],
     dependencies: [
-        .package(url: "https://github.com/MarkyAli/ocmock.git", .upToNextMajor(from: "0.0.0"))
+        .package(url: "https://github.com/MarkyAli/ocmock.git", .upToNextMajor(from: "3.1.2"))
     ],
     targets: [
         .target(name: "youtube-ios-player-helper", dependencies: ["OCMock"]),
