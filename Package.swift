@@ -18,18 +18,3 @@ let package = Package(
         .target(name: "youtube-ios-player-helper", dependencies: ["OCMock"]),
     ]
 )
-
-#if canImport(PackageConfig)
-import PackageConfig
-
-let config = PackageConfiguration([
-    "rocket": [
-	"before": [
-            
-	],
-	"after": [
-            
-	]
-    ]
-]).write()
-#endif
